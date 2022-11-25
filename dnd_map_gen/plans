@@ -1,0 +1,10 @@
+python shelve for saving the map to a serializable object?
+
+# leaving for tomorrow, pass map_grid by reference
+#  create methods for creating list_of_things and objects_lookup and weights [done]
+#  create methods for setting cols and rows for future GUI integration [done]
+#  rewrite weighted_place function and include checking if iteration is at max row/col or both [done]
+# create a map grid class? [done]
+
+# create a logarithmic expression to calculate elevation of adjacent tiles of land?
+# base tiles and sub tiles? e.g. plants are on land, trees are on land, land is base tile

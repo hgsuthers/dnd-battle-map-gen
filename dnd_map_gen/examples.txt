@@ -1,0 +1,10 @@
+struct_list = ['Bog', 'SwampLand', 'SwampLand2', 'SwampTree', 'Hut']
+
+struct_list is exactly what the name suggests, a list of structures that can be found in the config.py file
+
+
+
+
+objects_lookup = {'Bog': <class 'water.Bog'>, 'SwampLand': <class 'land.SwampLand'>, 'SwampLand2': <class 'land.SwampLand2'>, 'SwampTree': <class 'trees.SwampTree'>, 'Hut': <class 'buildings.Hut'>}
+
+objects_lookup is a lookup table of the structures listed in struct_list that is made by using globals and matching the names in globals to the names in struct_list; the map grid will be made up of what you see in objects_lookup
